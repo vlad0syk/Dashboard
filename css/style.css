@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+[class*="__container"] {
+    max-width: 1440px;
+    max-height: 1998px;
+}
+
+.aside__container {
+    width: 306px;
+    height: 1998px;
+}
+
+.logo__container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 28px;
+    margin-top: 37px;
+}
+
+.dashboard__main {
+    color: #000;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+}
+
+.dashboard__main span {
+    color: #838383;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+}
+
+.dashboard__container {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-left: 39px;
+    margin-top: 65px;
+}
+
+.product__container {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+
+.menu__item {
+    color: #9197B3;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+}
+
+.customers__container {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #5932EA;
+    gap: 14px;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+
+.income__container {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+
+.promote__container {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+
+.help__container { 
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+.chevron {
+    margin-left: 109px;
+}
