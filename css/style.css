@@ -1,34 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-[class*="__container"] {
+[class*="__block"] {
     max-width: 1440px;
     max-height: 1998px;
 }
 
-.aside__container {
+.aside__block {
     width: 306px;
     height: 1998px;
 }
 
 .logo__container {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    gap: 4px;
+    margin-top: 36px;
     margin-left: 28px;
-    margin-top: 37px;
 }
 
-.dashboard__main {
-    color: #000;
-    font-family: Poppins;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.26px;
-}
-
-.dashboard__main span {
+span {
+    padding-bottom: 6px;
+    padding-top: 18px;
     color: #838383;
     font-family: Poppins;
     font-size: 10px;
@@ -38,23 +29,12 @@
     letter-spacing: -0.1px;
 }
 
-.dashboard__container {
+[class*="-menu"] {
     display: flex;
-    gap: 14px;
     align-items: center;
-    margin-left: 39px;
-    margin-top: 65px;
-}
-
-.product__container {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    margin-left: 39px;
+    width: 231px;
+    height: 24px;
     margin-top: 40px;
-}
-
-.menu__item {
     color: #9197B3;
     font-family: Poppins;
     font-size: 14px;
@@ -64,42 +44,97 @@
     letter-spacing: -0.14px;
 }
 
-.customers__container {
+/*Перший блок в меню*/
+.dashboard-menu {
+    width: 116px;
+    height: 24px;
+    gap: 14px;
+    margin-left: 39px;
+    margin-top: 64px;
+}
+
+/* Другий блок в меню*/
+.product-menu {
+    margin-left: 39px;
+    gap: 123px;
+    margin-bottom: 30px;
+}
+
+.product {
     display: flex;
     align-items: center;
+    width: 116px;
+    height: 24px;
+    gap: 14px;
+}
+
+/*Третій блок в меню*/
+.background {
     width: 250px;
     height: 46px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #5932EA;
-    gap: 14px;
-    margin-left: 39px;
-    margin-top: 40px;
+    margin-top: 29px;
+    margin-left: 33px;
 }
 
-.income__container {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    margin-left: 39px;
-    margin-top: 40px;
+.customers-menu {
+    gap: 100px;
+    padding-left: 8px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 11px;
 }
 
-.promote__container {
+.customers {
     display: flex;
-    gap: 14px;
     align-items: center;
-    margin-left: 39px;
-    margin-top: 40px;
+    gap: 14px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
 }
 
-.help__container { 
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    margin-left: 39px;
-    margin-top: 40px;
+/*Четвертий блок*/
+.income-menu {
+
+    gap: 124px;
 }
-.chevron {
-    margin-left: 109px;
+
+.income {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 44px;
+}
+
+/*П'ятий блок*/
+.promote-menu {
+
+    gap: 117px;
+}
+
+.promote {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 44px;
+}
+
+/*Шостий блок*/
+.help-menu {
+
+    gap: 145px;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 44px;
 }
