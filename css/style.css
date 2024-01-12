@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+
 [class*="__block"] {
     max-width: 1440px;
     max-height: 1998px;
 }
 
-.aside__block {
+/* .aside__block {
     width: 306px;
     height: 1998px;
-}
+} */
 
 .logo__container {
     display: flex;
@@ -137,4 +138,10 @@ span {
     align-items: center;
     gap: 14px;
     margin-left: 44px;
+}
+
+.author {
+    padding-top: 597px;
+    padding-bottom: 76px;
+    padding-left: 28px;
 }
