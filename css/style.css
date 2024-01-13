@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-
-[class*="__block"] {
-    max-width: 1440px;
-    max-height: 1998px;
+body {
+    background: #FAFBFF;
+    width: 1440px;
+    height: 1198px;
+    display: flex;
 }
 
-/* .aside__block {
+.aside__block {
     width: 306px;
-    height: 1998px;
-} */
+    height: 1198px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.50);
+}
 
 .logo__container {
     display: flex;
     gap: 4px;
-    margin-top: 36px;
-    margin-left: 28px;
+    padding-top: 36px;
+    padding-left: 28px;
 }
 
-span {
+.version {
     padding-bottom: 6px;
     padding-top: 18px;
     color: #838383;
@@ -85,7 +89,7 @@ span {
     padding-left: 8px;
     padding-top: 11px;
     padding-bottom: 11px;
-    padding-right: 11px;
+    padding-right: 8px;
 }
 
 .customers {
@@ -111,7 +115,7 @@ span {
     display: flex;
     align-items: center;
     gap: 14px;
-    margin-left: 44px;
+    margin-left: 39px;
 }
 
 /*П'ятий блок*/
@@ -124,7 +128,7 @@ span {
     display: flex;
     align-items: center;
     gap: 14px;
-    margin-left: 44px;
+    margin-left: 39px;
 }
 
 /*Шостий блок*/
@@ -137,11 +141,57 @@ span {
     display: flex;
     align-items: center;
     gap: 14px;
-    margin-left: 44px;
+    margin-left: 39px;
 }
 
+/*Блок з автором*/
 .author {
     padding-top: 597px;
     padding-bottom: 76px;
     padding-left: 28px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 155px;
+    height: 42px;
+    flex-shrink: 0;
 }
+
+.evano {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.author-name {
+    display: column;
+}
+
+.project-manager {
+    color: #757575;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+/*Блок з привітанням*/
+.greeting {
+    width: 200px;
+    height: 36px;
+    padding-top: 41px;
+    padding-left: 71px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
