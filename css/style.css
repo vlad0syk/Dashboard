@@ -167,10 +167,6 @@ body {
     letter-spacing: 0.14px;
 }
 
-.author-name {
-    display: column;
-}
-
 .project-manager {
     color: #757575;
     font-family: Poppins;
@@ -181,9 +177,17 @@ body {
     letter-spacing: 0.12px;
 }
 
+main {
+    width: 1134px;
+    display: flex;
+    flex-direction: column;
+    background: #FAFBFF;
+}
+
 /*Блок з привітанням*/
 .greeting {
     width: 200px;
+    /*Тут по макету має бути 176px, але не влізає текст чомусь :(*/
     height: 36px;
     padding-top: 41px;
     padding-left: 71px;
@@ -193,5 +197,40 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+section {
+    width: 968px;
+    height: 812px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.50));
+    margin-left: 71px;
+    margin-top: 81px;
+    display: flex;
+}
+
+.all-cutomers {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.22px;
+    padding-top: 30px;
+    padding-left: 38px;
+}
+
+.active-members {
+    color: #16C098;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.14px;
+    padding-top: 7px;
+    padding-left: 38px;
 }
 
