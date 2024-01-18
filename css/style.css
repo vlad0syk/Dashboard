@@ -234,3 +234,42 @@ section {
     padding-left: 38px;
 }
 
+header {
+    display: flex;
+}
+
+.search-box {
+    width: 216px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F9FBFF;
+    margin-left: 506px;
+    margin-top: 44px;
+    display: flex;
+    gap: 8px;
+}
+
+.search-img {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.search-txt {
+    border: none;
+    text-decoration: none;
+    background: none;
+    color: #B5B7C0;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.12px;
+    width: 42px;
+    height: 18px;
+    margin-top: 10px;
+}
